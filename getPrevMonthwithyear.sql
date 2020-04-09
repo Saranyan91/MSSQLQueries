@@ -1,0 +1,1 @@
+select Datepart(YYYY,DATEADD(month,-1,GETDATE())), DATENAME(month,DATEADD(month,-1,GETDATE()));
